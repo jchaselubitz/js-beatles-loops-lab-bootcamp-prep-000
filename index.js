@@ -24,16 +24,16 @@ function johnLennonFacts(array) {
 }
 
 
-
+function incrementVariable() {
+  number = number + 1
+}
 
 function iLoveTheBeatles(number) {
   var newArray = []
-  number = number + 1
   do {
     newArray.push("I love the Beatles!")
     return newArray
-    number++
-  } while (number < 15)
+  } while (number < 15 && incrementVariable())
 }
 
 
