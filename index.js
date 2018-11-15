@@ -32,7 +32,7 @@ function iLoveTheBeatles(number) {
       return newArray
       increment(num)
     } while (num < 15)
-    function increment(number) {
+    function increment(num) {
       num = num + 1
     }
 }
