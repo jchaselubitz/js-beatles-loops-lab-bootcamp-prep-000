@@ -30,8 +30,7 @@ function iLoveTheBeatles(number) {
     do {
       newArray.push("I love the Beatles!")
       return newArray
-      increment(num)
-    } while (num < 15)
+    } while (num < 15 && increment(num))
     function increment(num) {
       num = num + 1
     }
