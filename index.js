@@ -17,8 +17,12 @@ console.log(emptyArray)
 function johnLennonFacts(array) {
   var i = 0
   while (i < 4) {
-    array[i] = `${array[i]}!!!`
-    i = i + 1
+    if (array === null) {
+      return null
+    } else {
+      array[i] = `${array[i]}!!!`
+      i = i + 1
+    }
   }
   return array
 }
