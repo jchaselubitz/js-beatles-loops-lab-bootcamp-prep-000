@@ -34,3 +34,15 @@ function iLoveTheBeatles(number) {
 iLoveTheBeatles(7)
 
 console.log(newArray)
+
+
+function iLoveTheBeatles(number) {
+  var newArray = []
+  return function() {
+    do {
+      newArray.push("I love the Beatles!")
+      return newArray
+    } while (number < 15 && ++number)
+  }
+  return newArray
+}
