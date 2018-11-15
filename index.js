@@ -22,7 +22,7 @@ function johnLennonFacts(array) {
   }
   return array
 }
-*/
+
 
 var test = 5
 
@@ -37,3 +37,4 @@ function iLoveTheBeatles(number) {
 iLoveTheBeatles(test)
 
 console.log(newArray)
+*/
