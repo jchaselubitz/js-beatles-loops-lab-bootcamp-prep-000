@@ -32,7 +32,7 @@ function iLoveTheBeatles(number) {
   do {
     newArray.push("I love the Beatles!")
     return newArray
-  } while (number < 15 && number += 1)
+  } while (number < 15 && number++)
 }
 
 
