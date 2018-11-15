@@ -17,7 +17,7 @@ console.log(emptyArray)
 function johnLennonFacts(array) {
   var i = 0
   while (i < 4) {
-    array[i] = `${array[i]} + "iii"`
+    array[i] = `${array[i]}+iii`
     i = i + 1
   }
   return array
