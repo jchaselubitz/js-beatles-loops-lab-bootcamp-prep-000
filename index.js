@@ -30,6 +30,9 @@ function iLoveTheBeatles(number) {
     newArray.push("I love the Beatles!")
     return newArray
   } while (number < 15 && ++number)
+  
 }
 
-iLoveTheBeatles(test)
+iLoveTheBeatles(7)
+
+console.log(newArray)
