@@ -33,5 +33,3 @@ function iLoveTheBeatles(number) {
 }
 
 iLoveTheBeatles(test)
-
-
