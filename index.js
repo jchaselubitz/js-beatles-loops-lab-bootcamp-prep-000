@@ -56,7 +56,7 @@ console.log(newArray)
 
 function iLoveTheBeatles(number) {
   var newArray = []
-  function() {
+  function(number) {
     do {
       newArray.push("I love the Beatles!")
       number++
