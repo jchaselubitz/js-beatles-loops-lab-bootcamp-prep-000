@@ -23,6 +23,7 @@ function johnLennonFacts(array) {
   return array
 }
 
+/*
 function iLoveTheBeatles(number) {
   var newArray = [1]
   do {
@@ -31,6 +32,7 @@ function iLoveTheBeatles(number) {
   } while (number < 15 && ++number)
 }
 
+*/
 iLoveTheBeatles(7)
 
 console.log(newArray)
