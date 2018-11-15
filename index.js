@@ -23,17 +23,17 @@ function johnLennonFacts(array) {
   return array
 }
 
+
 function iLoveTheBeatles(number) {
     var newArray = []
-function increment(number) {
-
-  number = number + 1
-}
-do {
-  newArray.push("I love the Beatles!")
-  return newArray
-  increment(number)
-} while (number < 15)
+    function increment(number) {
+      number = number + 1
+    }
+    do {
+      newArray.push("I love the Beatles!")
+      return newArray
+      increment(number)
+      } while (number < 15)
 }
 
 
