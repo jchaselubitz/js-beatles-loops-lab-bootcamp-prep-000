@@ -24,8 +24,17 @@ function johnLennonFacts(array) {
 }
 
 
+function iLoveTheBeatles(number) {
+  var newArray = []
+  number = number + 1
+}
+do {
+  newArray.push("I love the Beatles!")
+  number++
+  return newArray
+} while (number < 15)
 
-
+/*
 function iLoveTheBeatles(number) {
   var newArray = []
   do {
@@ -40,7 +49,7 @@ iLoveTheBeatles(7)
 
 console.log(newArray)
 
-/*
+
 function iLoveTheBeatles(number) {
   var newArray = []
   return function() {
