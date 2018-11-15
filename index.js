@@ -16,7 +16,7 @@ console.log(emptyArray)
 
 function johnLennonFacts(array) {
   var i = 0
-  while (i < array.count) {
+  while (i < array.length) {
     array[i] = `${array[i]}!!!`
     i = i + 1
     }
