@@ -13,9 +13,9 @@ function theBeatlesPlay(musician,instrument) {
 
 console.log(emptyArray)
 
-/*
+
 function johnLennonFacts(array) {
-  var i = 3
+  var i = 0
   while (i < 4) {
     array[i] = `${array[i]} + "iii"`
     i = i - 1
@@ -23,7 +23,7 @@ function johnLennonFacts(array) {
   return array
 }
 
-
+/*
 var test = 5
 
 function iLoveTheBeatles(number) {
