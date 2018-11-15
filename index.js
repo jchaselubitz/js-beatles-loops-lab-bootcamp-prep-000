@@ -20,7 +20,6 @@ function johnLennonFacts(array) {
     array[i] = `${array[i]}!!!`
     i = i + 1
     }
-  }
   return array
 }
 
