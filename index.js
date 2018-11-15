@@ -13,6 +13,7 @@ function theBeatlesPlay(musician,instrument) {
 
 console.log(emptyArray)
 
+/*
 function johnLennonFacts(array) {
   var i = 3
   while (i < 4) {
@@ -21,3 +22,12 @@ function johnLennonFacts(array) {
   }
   return array
 }
+*/
+
+function iLoveTheBeatles(number) {
+  var newArray = []
+  do {
+    newArray.push("I love the Beatles!")
+    number = number + 1
+  } while (number < 15)
+} 
