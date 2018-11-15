@@ -31,5 +31,5 @@ function iLoveTheBeatles(number) {
       newArray.push("I love the Beatles!")
       number = number + 1
     } while (number < 15)
-  } return array  
+  } console.log(newArray)
 } 
